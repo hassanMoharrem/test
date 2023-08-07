@@ -1,0 +1,211 @@
+@font-face {
+    src: url("../fonts/alfont_com.ttf");
+    font-family: "main";
+}
+
+:root {
+    --main: #FFFFFF;
+    --sub: #ACB0C3;
+    --label:#F2F2F2;
+    --sub-href: #797D90;
+    --primary: #5E8BF6;
+    --success: #24C952;
+    --bg-main: #1C1F2E;
+    --bg-sub: #1F2336;
+    --shadow-main: 0px 3px 2px rgba(11, 8, 8, 0.17);
+    --shadow-sidebar: 0px 8px 16px rgba(11, 8, 8, 0.17);
+    --shadow-card: 0px 4px 4px #1D2032;
+    --bg-button: linear-gradient(to left, #5A29D6, #3859EE);
+    --bg-linear: linear-gradient(to bottom, #5A29D6, #3859EE);
+    --radius-button:6px;
+    --border-color:#E8E9F240;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "main", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--main);
+    font-family: "main", sans-serif;
+    font-weight: 500;
+    background-image: url("../images/background.jpeg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0;
+    height: 100vh;
+    overflow: hidden;
+    direction: rtl;
+}
+a{
+    text-decoration: none;
+}
+main{
+    background-image: url("../images/boy.png");
+    height: 100%;
+    background-size: 63%;
+    background-position: bottom 26% left 28%;
+    background-repeat: no-repeat;
+}
+.top-50-e{
+    top: 50%;
+}
+.font-22{
+    font-size: 22px;
+}
+.font-18{
+    font-size: 18px;
+}
+.w-250{
+    width: 250px;
+}
+.font-2vmin{
+    font-size: 2vmin;
+    margin-bottom: 1vmin;
+}
+.modal-backdrop{
+    z-index: 1 !important;
+}
+.z-index-2{
+    z-index: 2;
+}
+.z-99{
+    z-index: 212121;
+}
+.offset-8 {
+    margin-left: 0 !important;
+    margin-right: 65.667%;
+}
+.offset-1 {
+    margin-left: 0;
+    margin-right: 12.33333333%;
+}
+.mt-3vmin {
+    margin-top: -2vmin;
+}
+.badge {
+    display: inline-block;
+    font-size: 1vmin;
+    font-weight: 500;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: .25rem;
+}
+.start-43{
+    left: 42%;
+}
+.mt-n-1vmin {
+     margin-top: -3.5vmin;
+     margin-bottom: 4.5vmin;
+ }
+
+.font-2vmin-login {
+    font-size: 1.8vmin;
+    margin-bottom: 3.5vmin;
+    margin-top: 1vmin;
+}
+.font-2vmin {
+    font-size: 1.8vmin;
+    margin-bottom: 2vmin;
+    margin-top: 1.3vmin;
+}
+.mt-8vmin {
+    margin-top: -8vmin;
+}
+
+.mt-3vmin-nav {
+    padding-top: 3vmin;
+}
+.mt-1vmin{
+    margin-top: 1vmin;
+}
+figure {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh + 15%);
+    overflow: hidden;
+    margin-bottom: 0;
+    top: -15%;
+}
+@media (max-width: 767px) {
+    body {
+        background: none !important;
+    }
+    .ghhg{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    main {
+        position: relative;
+        background-image: url("../images/boy.png");
+        height: 100%;
+        background-size: 170%;
+        background-position: bottom 42% left 22%;
+        background-repeat: no-repeat;
+    }
+    .col-4 .openModel{
+        width: 22% !important;
+    }
+    .col-3 .openModel{
+        width: 32% !important;
+    }
+    .badge{
+        font-size: 1.8vmin !important;
+    }
+    .font-2vmin-login{
+        font-size: 2.5vmin;
+    }
+    .font-2vmin{
+        font-size: 2.5vmin;
+    }
+    .offset-8 {
+        margin-left: 0 !important;
+        margin-right: 8%;
+    }
+    .offset-16{
+        margin-right: 8%;
+    }
+    .offset-13{
+        margin-right: 8%;
+    }
+    .mt-8vmin {
+         margin-top: 2vmin;
+     }
+    footer p{
+        font-size: 12px;
+    }
+    footer .second-image {
+        width: 40px !important;
+    }
+    footer .last{
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+    .top-50-e{
+        top: 50%;
+    }
+    .w-250 {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .mt-3vmin-nav {
+        padding-top: 2vmin;
+        padding-bottom: 4vmin;
+        font-size: 20px !important;
+    }
+}

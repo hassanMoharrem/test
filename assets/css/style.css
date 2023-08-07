@@ -135,7 +135,7 @@ main{
 figure {
     position: absolute;
     width: 100%;
-    height: calc(100vh + 15%);
+    height: calc(100vmax + 15%);
     overflow: hidden;
     margin-bottom: 0;
     top: -15%;
@@ -196,7 +196,7 @@ figure {
         justify-content: center !important;
     }
     .top-50-e{
-        top: 50%;
+        top: 49%;
     }
     .w-250 {
         width: 100%;
